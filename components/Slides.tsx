@@ -1,4 +1,5 @@
-import { Data } from "@/pages";
+// import { Data } from "@/pages";
+import { Data } from "./HeroSlider";
 import React from "react";
 import SliderCard from "./SliderCard";
 

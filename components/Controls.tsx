@@ -1,7 +1,8 @@
 import React from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Progress from "./Progress";
-import { CurrentSlideData, Data } from "@/pages";
+// import { CurrentSlideData, Data } from "@/pages";
+import { CurrentSlideData, Data } from "./HeroSlider";
 
 type Props = {
   currentSlideData: CurrentSlideData;
@@ -16,7 +17,10 @@ type Props = {
   initData: Data;
 };
 
-function Controls({
+function Controls(
+
+  {
+
   sliderData,
   data,
   transitionData,
@@ -54,6 +58,9 @@ function Controls({
       ]);
     }, 500);
   };
+
+  // handleNext();
+
 
   return (
     <div className="flex items-center gap-3 px-0 py-3 md:px-1 md:py-5">
